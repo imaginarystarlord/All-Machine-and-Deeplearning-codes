@@ -1,0 +1,10 @@
+import conda.cli
+
+conda.cli.main('conda', 'install',  '-y', 'numpy')
+conda.cli.main('conda', 'install',  '-y', 'pandas')
+conda.cli.main('conda', 'install',  '-y', 'matplotlib')
+conda.cli.main('conda', 'install',  '-y', 'scikit-learn')
+conda.cli.main('conda', 'install',  '-y', 'keras')
+conda.cli.main('conda', 'install',  '-y', 'nltk')
+conda.cli.main('conda', 'install',  '-y', 'seaborn')
+
